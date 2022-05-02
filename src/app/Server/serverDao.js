@@ -13,6 +13,14 @@ async function selectLocation(connection, params) {
     return row;
 }
 
+async function insertLocationInfo(connection, params) {
+    const query =   `
+                    INSERT lng, lat
+                    INTO
+                                    
+    `
+}
+
 module.exports = {
     selectLocation,
 }
